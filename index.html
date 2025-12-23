@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Kepler Huaynate | Ingeniero Civil</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <script defer src="assets/js/theme.js"></script>
+  <script defer src="assets/js/i18n.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+</head>
+
+<body>
+<header>
+  <h1 data-i18n="name">Kepler Huaynate Gamarra</h1>
+  <h2 data-i18n="title">
+    Ingeniero Civil | Estructuras • Geotecnia • Infraestructura
+  </h2>
+
+  <nav>
+    <button onclick="setLang('es')">ES</button>
+    <button onclick="setLang('en')">EN</button>
+    <button onclick="setLang('fr')">FR</button>
+  </nav>
+</header>
+
+<main>
+  <section data-i18n="profile"></section>
+
+  <section>
+    <h3 data-i18n="structural_title"></h3>
+    <div id="structural-md"></div>
+  </section>
+
+  <section>
+    <h3 data-i18n="geotechnical_title"></h3>
+    <div id="geotechnical-md"></div>
+  </section>
+
+  <section>
+    <h3 data-i18n="transportation_title"></h3>
+    <div id="transportation-md"></div>
+  </section>
+
+  <section>
+    <h3 data-i18n="programming_title"></h3>
+    <div id="programming-md"></div>
+  </section>
+
+  <section>
+    <h3 data-i18n="portfolio_title"></h3>
+    <a href="https://github.com/keplerhuaynate" target="_blank">
+      GitHub Portfolio
+    </a>
+  </section>
+</main>
+</body>
+
+<script src="assets/js/markdown-loader.js"></script>
+<script>
+  loadMarkdown("modules/structural.md", "structural-md");
+  loadMarkdown("modules/geotechnical.md", "geotechnical-md");
+  loadMarkdown("modules/transportation.md", "transportation-md");
+  loadMarkdown("modules/programming.md", "programming-md");
+</script>
+
+</html>

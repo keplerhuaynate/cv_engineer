@@ -1,0 +1,19 @@
+{
+  "name": "Kepler Huaynate Gamarra",
+  "title": "Civil Engineer | Structural • Geotechnical • Infrastructure",
+  "profile": "Civil Engineer with experience in structural analysis and design, applied geotechnical engineering, and transportation infrastructure projects. Strong technical approach and international orientation.",
+  
+  "structural_title": "Structural Engineering",
+  "structural": "Design and analysis of reinforced concrete buildings, seismic analysis, drift control, and technical documentation.",
+
+  "geotechnical_title": "Applied Geotechnical Engineering",
+  "geotechnical": "Interpretation of soil investigation reports and foundation design criteria.",
+
+  "transportation_title": "Transportation Infrastructure",
+  "transportation": "Urban and road infrastructure projects with multidisciplinary coordination.",
+
+  "programming_title": "Engineering Automation",
+  "programming": "Use of Python to support engineering calculations, verification, and technical workflows.",
+
+  "portfolio_title": "Technical Portfolio"
+}
